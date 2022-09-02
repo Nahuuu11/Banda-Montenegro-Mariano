@@ -1,0 +1,821 @@
+/* <-----google fonts----> */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+/* <-----google fonts----> */
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     border-style: none;
+     list-style: none;
+     /* outline-style: none; */
+}
+
+body {
+     background-image: url(../assets/images/background.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+/* <-----navbar----> */
+.header {
+     padding: 40px;
+     font-family: 'Lato', sans-serif;
+     z-index: 1;
+}
+
+a {
+     color: rgb(167, 163, 163);
+     cursor: pointer;
+     font-size: 20px;
+}
+
+.nav__list {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style-type: none;
+}
+
+.nav__list .list__links {
+     padding: 20px;
+}
+
+.nav__list a { 
+     transition: all .3s ease;
+}
+
+.nav__list a:hover { 
+     color: rgb(255, 255, 255);
+}
+
+/* <-----navbar------> */
+
+/* <-----main content index-----> */
+.logo {
+     display: flex;
+     justify-content: center;
+     height: 200px;
+}
+
+.separador {
+     display: flex;
+     justify-content: center;
+     padding-top: 80px;
+
+}
+
+.title__banda {
+     color: white;
+     text-align: center;
+     padding: 40px;
+     font-family: 'Amaranth', sans-serif;
+}
+
+.title__banda h1 {
+     font-size: 300%;
+}
+
+.title__banda h2 {
+     font-size: 45px;
+     margin-right: 16px;
+}
+
+.title-mid {
+     font-size: 40px;
+     color: white;
+     font-family: 'Public Sans', sans-serif;
+     text-align: center;
+     padding-top: 80px;
+}
+
+.box__1 {
+     font-family: 'Oswald', sans-serif;
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
+     flex-wrap: wrap;
+}
+
+.article__margen1 {
+     position: relative;
+     margin: 20px 50px;
+     width: 430px;
+     height: 510px;
+     background-image: url(../assets/images/Foto6.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 5px;
+}
+
+.article__margen2 {
+     position: relative;
+     margin: 20px 50px;
+     width: 430px;
+     height: 510px;
+     background-image: url(../assets/images/Foto3.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 5px;
+}
+
+.article__margen3 {
+     position: relative;
+     margin: 20px 50px;
+     width: 430px;
+     height: 510px;
+     background-image: url(../assets/images/Foto5.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 5px;
+}
+
+.article__margen4 {
+     position: relative;
+     margin: 20px 50px;
+     width: 430px;
+     height: 510px;
+     background-image: url(../assets/images/Foto2.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 5px;
+}
+
+.color {
+     width: 430px;
+     height: 510px;
+     background-color: rgba(0, 0, 0, 0.4);
+     border-radius: 5px;
+}
+
+.color a {
+     font-size: 25px;
+     font-weight: 600;
+     position: absolute;
+     top: 87%;
+     left: 25px;
+     color: white;
+}
+
+.separador__largo {
+     display: flex;
+     justify-content: center;
+     padding: 90px;
+     background-image: url(../assets/images/Logo.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 150px 
+}
+/* <------main content index-----> */
+
+
+/* <-------red social footer------> */
+.separador__footer {
+     display: flex;
+     justify-content: center;
+     padding-top: 30px;
+
+}
+
+.text__follow {
+     text-align: center;
+     color: white;
+     font-size: 17px;
+     margin-top: 20px;
+     font-family: 'Public Sans', sans-serif;
+}
+
+.red__social {
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+}
+.red__social a {
+     margin: 10px;
+}
+
+.social-facebook {
+     height: 36px;
+     width: 36px;
+     background-image: url(../assets/socials-icons/facebook-logo-36.png);
+     background-repeat: no-repeat;
+     
+}
+
+.social-twitter {
+     height: 36px;
+     width: 36px;
+     background-image: url(../assets/socials-icons/twitter-logo-36.png);
+     background-repeat: no-repeat;
+}
+
+.social-instagram {
+     height: 36px;
+     width: 36px;
+     background-image: url(../assets/socials-icons/instagram-logo-36.png);
+     background-repeat: no-repeat;
+}
+
+.social-youtube {
+     height: 36px;
+     width: 36px;
+     background-image: url(../assets/socials-icons/youtube-logo-36.png);
+     background-repeat: no-repeat;
+}
+
+.social-spotify {
+     height: 36px;
+     width: 36px;
+     background-image: url(../assets/socials-icons/spotify-logo-36.png);
+     background-repeat: no-repeat;
+}
+.copy {
+     text-align: center;
+     color: white;
+     font-size: 15px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* <-------red social footer ------> */
+
+
+
+/* <-------Content Gira ---------> */
+.linebar-gira {
+     display: flex;
+     justify-content: center;
+     padding-top: 30px;
+
+}
+
+.title-mid {
+     font-size: 40px;
+     color: white;
+     font-family: 'Public Sans', sans-serif;
+     text-align: center;
+     padding-top: 80px;
+}
+
+.title-gira {
+     font-size: 35px;
+     color: white;
+     font-family: 'Public Sans', sans-serif;
+     text-align: center;
+     padding-top: 40px;
+}
+
+.logo-gira {
+     display: flex;
+     justify-content: center;
+     height: 180px;
+     padding-top: 30px;
+}
+
+
+/* <-------bars-------> */
+.bars {
+     width: 900px;
+     height: 400px;
+     margin: auto;
+     border-top: white 1px solid;
+     overflow-y: scroll;
+}
+.bars div {
+     border-bottom: rgba(252, 248, 248, 0.2) 1px solid;
+     padding: 20px;
+     color: white;
+     transition: background-color 0.4s ease-in-out 0s;
+}
+.bars div:hover {
+     background-color: rgba(223, 36, 81, 0.3) ;
+}
+/* <-------bars-------> */
+
+
+span {
+     font-size: 24px;
+}
+
+/* <-------buttons-------> */
+.buttons {
+     width: 900px;
+     margin: auto;
+     padding-bottom: 10px;
+}
+.buttons button{
+     cursor: pointer;
+     padding: 10px;
+     background-color: rgba(223, 36, 81, 0.3) ;
+     color: white;
+     font-size: 15px;
+     font-weight: 800;
+}
+
+.lugar {
+     margin-left: 260px;
+}
+/* <-------buttons-------> */
+
+.grid-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+     grid-auto-rows: minmax(200px, auto);
+     gap: 20px;
+     max-width: 55rem;
+     padding: 2rem 1.5rem;
+     margin: 0 auto;
+     grid-auto-flow: dense;
+}
+.wide {
+     grid-column: span 2;
+}
+.tall {
+     grid-row: span 2;
+}
+.grid_item {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 5px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: transform 0.3s ease-in-out;
+}
+.grid_item:hover {
+     filter: opacity(0.9);
+     transform: scale(1.04);
+   }
+/* <-------Content Gira ---------> */
+
+
+
+/* <-----Musica/Videos-----> */
+.text {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.text_album {
+     width: 600px;
+     height: 500px;
+     color: white;
+}
+.text_album h1 {
+     font-size: 37px;
+     padding-bottom: 20px;
+}
+.text_album h2 {
+     font-size: 30px;
+}
+.text_album p {
+     font-size: 20px;
+     margin-bottom: 15px;
+}
+
+.image__album {
+     padding-left: 5%;
+}
+.image__album img{
+     border-radius: 5px;
+}
+
+.iframe_videos {
+     display: flex;
+     justify-content: center;
+     padding-top: 40px;
+     flex-wrap: wrap;
+}
+.video1 {
+     padding-right: 40px;
+}
+.video2 {
+     padding-left: 30px;
+}
+.title__videos {
+     text-align:center;
+     color: white;
+}
+/* <-----Musica/Videos-----> */
+
+
+
+/* <------Contacto------> */
+form {
+     width: 585px;
+     margin: auto;
+     padding: 10px 20px;
+     
+}
+.checkbox_news {
+     display: inline-flex;
+}
+.checkbox_news small {
+     padding-left: 10px;
+     font-size: 15px;
+     color: white;
+}
+.form__1 h2{
+     color: white;
+     text-align: center;
+     margin: 0;
+     font-size: 25px;
+     padding-bottom: 25px;
+}
+.form__1 p{
+     padding-bottom: 5px;
+     font-size: 20px;
+     color: white;
+     font-weight: 500%;
+}
+
+.form__1 input, textarea {
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 7px;
+     box-shadow: black 0 2 15 1;
+}
+textarea {
+     resize: none;
+     background-color: rgba(223, 36, 81, 0.3) ;
+     width: 100%;
+     height: 200px;
+     color: white;
+}
+
+.form__1 input {
+     background-color: rgba(223, 36, 81, 0.3) ;
+     color: white;
+     padding: 15px;
+}
+/* <------Contacto------> */
+
+
+/* <-----Banda-----> */
+.miembros {
+     max-width: 55rem;
+     padding: 2rem 1.5rem;
+     margin: 0 auto;
+}
+.miembros h1 {
+     font-weight: 900;
+     font-size: 2.7rem;
+     max-width: 20ch;
+     color: white;
+
+}
+.miembros p {
+     max-width: 60ch;
+}
+.miembros a {
+     color: white;
+}
+
+/*Grid*/
+.ul__grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(var(--auto-grid-min-size, 14rem), 1fr));
+     grid-gap: 10px;
+     padding: 0;
+     place-content: center;
+}
+.banda {
+     margin-top: var(--flow-space, 1em);
+}
+.miembros {
+     --flow-space: 2em;
+}
+.profile {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     aspect-ratio: 1/1;
+     position: relative;
+     padding: 1.5rem;
+     color: white;
+     backface-visibility: hidden;
+     text-decoration: none;
+     overflow: hidden;
+}
+.profile::before,
+.profile::after {
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+.profile::before {
+     background:linear-gradient(
+          to top,
+          hsl(0 0% 0% / 0.79) 0%,
+          hsl(0 0% 0% / 0.787) 7.8%,
+          hsl(0 0% 0% / 0.779) 14.4%,
+          hsl(0 0% 0% / 0.765) 20.2%,
+          hsl(0 0% 0% / 0.744) 25.3%,
+          hsl(0 0% 0% / 0.717) 29.9%,
+          hsl(0 0% 0% / 0.683) 34.3%,
+          hsl(0 0% 0% / 0.641) 38.7%,
+          hsl(0 0% 0% / 0.592) 43.3%,
+          hsl(0 0% 0% / 0.534) 48.4%,
+          hsl(0 0% 0% / 0.468) 54.1%,
+          hsl(0 0% 0% / 0.393) 60.6%,
+          hsl(0 0% 0% / 0.31) 68.3%,
+          hsl(0 0% 0% / 0.216) 77.3%,
+          hsl(0 0% 0% / 0.113) 87.7%,
+          hsl(0 0% 0% / 0) 100%
+     );
+     transition: 300ms opacity linear;
+}
+.profile::after {
+     background: linear-gradient(
+          45deg,
+          rgba(223, 36, 81, 0.3) 0,
+          rgba(223, 36, 81, 0.3) 100%
+     );
+     opacity: 0;
+     transition: 300ms opacity linear;
+}
+.profile > * {
+     z-index: 1;
+}
+.profile img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     margin: 0;
+     z-index: -1;
+     object-fit: cover;
+     filter: grayscale(1);
+     transition: filter 200ms ease, transform 250ms linear;
+}
+
+
+.profile h2,
+.profile p {
+     transform: translateY(2ex);
+}
+
+.profile h2 {
+     font-size: 1.7rem;
+     line-height: 1.2;
+     font-weight: 900;
+     letter-spacing: 0.03ch;
+     transition: 300ms transform ease;
+}
+.profile p {
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+.profile p {
+     opacity: 0;
+     transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.profile:focus {
+     outline: 0.5rem solid rgb(223, 36, 81, 0.3);
+     outline-offset: -0,5rem;
+}
+
+.profile:hover :is(h2, p),
+.profile:focus :is(h2, p) {
+  transform: none;
+}
+
+.profile:hover::after,
+.profile:focus::after,
+.profile:hover::before,
+.profile:focus::before {
+     opacity: 0.7;
+}
+.profile:hover p,
+.profile:focus p {
+     opacity: 1;
+     transition-delay: 200ms;
+}
+
+.profile:hover img,
+.profile:focus img {
+     filter: grayscale(0);
+     transform: scale(1.05) rotate(1deg);
+}
+/* <-----Banda-----> */
+
+@media screen and (max-width: 768px) {
+     /* musica/videos */
+     .separadorcon__logo {
+          display: none;
+      }
+      .text_album {
+          width: 600px;
+          height: auto;
+          text-align: center;
+          padding-top: 40px;
+      }
+      .text_album p {
+          margin-left: 10px;
+          margin-right: 10px;
+      }
+      .video1 {
+          padding: 0;
+          margin: 10px;
+      }
+      .video2 {
+          padding: 0;
+          margin: 10px;
+      }
+      .image__album {
+          padding: 0px;
+      }
+     /* musica/videos */
+
+     /* Gira */
+     .bars {
+          width: 700px;
+          height: 400px;
+     }
+     .lugar {
+          margin-left: 230px;
+     }
+     .buttons{
+          padding-top: 40px;
+          width: auto;
+          display: flex;
+          justify-content: center;
+     }
+     .wide {
+          grid-column: span 2;
+     }
+     .tall {
+          grid-row: span 2;
+     }
+     .foto3 {
+          grid-column: span 2;
+          grid-row: auto;
+     }
+     .foto6 {
+          grid-row: auto;
+          grid-column: span 2;
+     }
+     .grid-container {
+          gap: 0;
+          row-gap: 10px;
+          padding: 15px;
+     }
+      /* Gira */
+}
+
+@media screen and (max-width: 700px) {
+     body {
+          background-image: url(../assets/images/Backgroundmobile.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+     }
+
+     /* navabar */
+     .header {
+          padding: 10px;
+          width: 100%;
+     }
+     .nav__list {
+          display: flex;
+          flex-direction: column;
+     }
+     .nav__list li {
+          padding: 15px;
+     }
+     .nav__list .list__links {
+          padding: 0;
+     }
+     /* navbar */
+     
+     /* main */
+     .logo {
+          height: 150px;
+     }
+     
+     .title__banda h1 {
+          font-size: 28px;
+     }
+     
+     .title__banda h2 {
+          font-size: 28px;
+          padding-left: 20px;
+     }
+     
+     .article__margen1 {
+          margin-bottom: 20px;
+          width: 300px;
+          height: 510px;
+     }
+     
+     .article__margen2 {
+          width: 300px;
+          height: 510px;
+     }
+     
+     .article__margen3 {
+          margin-bottom: 20px;
+          width: 300px;
+          height: 510px;
+     }
+     
+     .article__margen4 {
+          width: 300px;
+          height: 510px;
+     }
+     
+     .color {
+          width: 300px;
+          height: 510px;
+     }
+     .separadorcon__logo {
+          display: none;
+      }
+     /* Main */
+
+     /* Gira */
+     .bars {
+          width: 300px;
+          height: 400px;
+     }
+     .lugar {
+          margin: 20px;
+     }
+     .buttons{
+          padding-top: 40px;
+          width: auto;
+          display: flex;
+          justify-content: center;
+     }
+
+     .wide {
+          grid-column: span 2;
+     }
+     .foto3 {
+          grid-column: span 2;
+          grid-row: auto;
+     }
+     .foto6 {
+          grid-row: auto;
+     }
+     .grid-container {
+          gap: 0;
+          row-gap: 10px;
+          padding: 15px;
+     }
+      /* Gira */
+
+      /* Musica/Videos */
+      .text_album {
+          width: auto;
+          height: auto;
+          text-align: center;
+          padding-top: 40px;
+      }
+      .text_album p {
+          margin-left: 10px;
+          margin-right: 10px;
+      }
+      .title__videos {
+          padding-top: 30px;
+      }
+      .video1 {
+          padding: 0;
+          margin: 10px;
+      }
+      .video2 {
+          padding: 0;
+          margin: 10px;
+      }
+      .imagen__album-1 {
+          width: 320px;
+          height: 300px;
+          padding: 10px;
+
+      }
+      .iframe_spotify {
+          padding: 5px;
+      }
+      .image__album {
+          padding: 0px;
+      }
+     /* Musica/Videos */
+
+     /* contacto */
+     form {
+          width: 320px;
+          padding-top: 50px;
+     }
+     /* contacto */
+}
+
+
