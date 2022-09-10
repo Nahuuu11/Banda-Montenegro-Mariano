@@ -231,7 +231,6 @@ body {
 /* <-------red social footer ------> */
 
 
-
 /* <-------Content Gira ---------> */
 .linebar-gira {
      display: flex;
@@ -389,6 +388,11 @@ span {
 .title__videos {
      text-align:center;
      color: white;
+}
+
+.carouselp {
+     height: 500x;
+     width: 600px;
 }
 /* <-----Musica/Videos-----> */
 
@@ -624,6 +628,9 @@ textarea {
       .image__album {
           padding: 0px;
       }
+      .carouselp {
+          width: 500px;
+      }
      /* musica/videos */
 
      /* Gira */
@@ -803,6 +810,10 @@ textarea {
       }
       .image__album {
           padding: 0px;
+      }
+
+      .carouselp {
+          width: 300px;
       }
      /* Musica/Videos */
 
