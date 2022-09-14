@@ -1,0 +1,68 @@
+/* <-------red social footer------> */
+.separador__footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.text__follow {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.red__social {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.red__social a {
+    margin: 10px;
+}
+
+.social-facebook {
+    height: 36px;
+    width: 36px;
+    background-image: url(../assets/socials-icons/facebook-logo-36.png);
+    background-repeat: no-repeat;
+    
+}
+
+.social-twitter {
+    height: 36px;
+    width: 36px;
+    background-image: url(../assets/socials-icons/twitter-logo-36.png);
+    background-repeat: no-repeat;
+}
+
+.social-instagram {
+    height: 36px;
+    width: 36px;
+    background-image: url(../assets/socials-icons/instagram-logo-36.png);
+    background-repeat: no-repeat;
+}
+
+.social-youtube {
+    height: 36px;
+    width: 36px;
+    background-image: url(../assets/socials-icons/youtube-logo-36.png);
+    background-repeat: no-repeat;
+}
+
+.social-spotify {
+    height: 36px;
+    width: 36px;
+    background-image: url(../assets/socials-icons/spotify-logo-36.png);
+    background-repeat: no-repeat;
+}
+.copy {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* <-------red social footer ------> */

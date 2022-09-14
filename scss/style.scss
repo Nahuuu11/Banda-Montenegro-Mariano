@@ -1,0 +1,15 @@
+// components
+@import './components/variables';
+@import './components/global';
+@import './components/header';
+@import './components/footer';
+
+// pages
+@import './pages/index';
+@import './pages/gira';
+@import './pages/musica-videos';
+@import './pages/banda';
+@import './pages/contacto';
+
+//media
+@import './components/mediaqueries';

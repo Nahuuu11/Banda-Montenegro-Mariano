@@ -1,0 +1,54 @@
+/* <-----Musica/Videos-----> */
+.text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text_album {
+    width: 600px;
+    height: 500px;
+    color: white;
+}
+.text_album h1 {
+    font-size: 37px;
+    padding-bottom: 20px;
+}
+.text_album h2 {
+    font-size: 30px;
+}
+.text_album p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.image__album {
+    padding-left: 5%;
+}
+.image__album img{
+    border-radius: 5px;
+}
+
+.iframe_videos {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+.video1 {
+    padding-right: 40px;
+}
+.video2 {
+    padding-left: 30px;
+}
+.title__videos {
+    text-align:center;
+    color: white;
+}
+
+.carouselp {
+    height: 500x;
+    width: 600px;
+}
+/* <-----Musica/Videos-----> */

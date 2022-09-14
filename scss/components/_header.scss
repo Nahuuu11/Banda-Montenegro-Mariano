@@ -1,0 +1,15 @@
+/* <-----navbar----> */
+.header {
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.nav-item a {
+    color: $color-secundario!important;
+    font-size: 1.3rem;
+    padding: 15px!important;
+
+    &:hover {
+        color: rgb(255, 255, 255)!important;
+    }
+}
+/* <-----navbar------> */

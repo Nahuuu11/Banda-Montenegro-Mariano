@@ -1,0 +1,222 @@
+@media screen and (max-width: 768px) {
+    /* musica/videos */
+    .separadorcon__logo {
+         display: none;
+     }
+     .text_album {
+         width: 600px;
+         height: auto;
+         text-align: center;
+         padding-top: 40px;
+     }
+     .text_album p {
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+     .video1 {
+         padding: 0;
+         margin: 10px;
+     }
+     .video2 {
+         padding: 0;
+         margin: 10px;
+     }
+     .image__album {
+         padding: 0px;
+     }
+     .carouselp {
+         width: 500px;
+     }
+    /* musica/videos */
+
+    /* Gira */
+    .bars {
+         width: 700px;
+         height: 400px;
+    }
+    .lugar {
+         margin-left: 230px;
+    }
+    .buttons{
+         padding-top: 40px;
+         width: auto;
+         display: flex;
+         justify-content: center;
+    }
+    .wide {
+         grid-column: span 2;
+    }
+    .tall {
+         grid-row: span 2;
+    }
+    .foto3 {
+         grid-column: span 2;
+         grid-row: auto;
+    }
+    .foto6 {
+         grid-row: auto;
+         grid-column: span 2;
+    }
+    .grid-container {
+         gap: 0;
+         row-gap: 10px;
+         padding: 15px;
+    }
+     /* Gira */
+}
+
+@media screen and (max-width: 700px) {
+    body {
+         background-image: url(../assets/images/Backgroundmobile.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+
+    /* navabar */
+    .header {
+         padding: 10px;
+         width: 100%;
+    }
+    .nav__list {
+         display: flex;
+         flex-direction: column;
+    }
+    .nav__list li {
+         padding: 15px;
+    }
+    .nav__list .list__links {
+         padding: 0;
+    }
+    /* navbar */
+    
+    /* main */
+    .logo {
+         height: 150px;
+    }
+    
+    .title__banda h1 {
+         font-size: 28px;
+    }
+    
+    .title__banda h2 {
+         font-size: 28px;
+         padding-left: 20px;
+    }
+    
+    .article__margen1 {
+         margin-bottom: 20px;
+         width: 300px;
+         height: 510px;
+    }
+    
+    .article__margen2 {
+         width: 300px;
+         height: 510px;
+    }
+    
+    .article__margen3 {
+         margin-bottom: 20px;
+         width: 300px;
+         height: 510px;
+    }
+    
+    .article__margen4 {
+         width: 300px;
+         height: 510px;
+    }
+    
+    .color {
+         width: 300px;
+         height: 510px;
+    }
+    .separadorcon__logo {
+         display: none;
+     }
+     .linebar-gira {
+         padding: 0;
+     }
+     .title-gira {
+         padding-top: 0.5rem;
+         margin: 0;
+     }
+    /* Main */
+
+    /* Gira */
+    .bars {
+         width: 300px;
+         height: 400px;
+    }
+    .lugar {
+         margin: 20px;
+    }
+    .buttons{
+         padding-top: 40px;
+         width: auto;
+         display: flex;
+         justify-content: center;
+    }
+
+    .wide {
+         grid-column: span 2;
+    }
+    .foto3 {
+         grid-column: span 2;
+         grid-row: auto;
+    }
+    .foto6 {
+         grid-row: auto;
+    }
+    .grid-container {
+         gap: 0;
+         row-gap: 10px;
+         padding: 15px;
+    }
+     /* Gira */
+
+     /* Musica/Videos */
+     .text_album {
+         width: auto;
+         height: auto;
+         text-align: center;
+         padding-top: 40px;
+     }
+     .text_album p {
+         margin-left: 10px!important;
+         margin-right: 10!important;
+     }
+     .title__videos {
+         padding-top: 30px;
+     }
+     .video1 {
+         padding: 0;
+         margin: 10px;
+     }
+     .video2 {
+         padding: 0;
+         margin: 10px;
+     }
+     .imagen__album-1 {
+         width: 320px;
+         height: 300px;
+         padding: 10px;
+
+     }
+     .iframe_spotify {
+         padding: 5px;
+     }
+     .image__album {
+         padding: 0px;
+     }
+
+     .carouselp {
+         width: 300px;
+     }
+    /* Musica/Videos */
+
+    /* contacto */
+    form {
+         width: 320px;
+         padding-top: 50px;
+    }
+    /* contacto */
+}

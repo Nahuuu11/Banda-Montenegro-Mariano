@@ -1,0 +1,22 @@
+{
+  "name": "banda-montenegro-mariano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nahuuu11/Banda-Montenegro-Mariano.git"
+  },
+  "author": "Mariano Montenegro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nahuuu11/Banda-Montenegro-Mariano/issues"
+  },
+  "homepage": "https://github.com/Nahuuu11/Banda-Montenegro-Mariano#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
