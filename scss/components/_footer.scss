@@ -29,6 +29,7 @@
     width: 36px;
     background-image: url(../assets/socials-icons/facebook-logo-36.png);
     background-repeat: no-repeat;
+    border-radius: 10px;
     
 }
 
@@ -37,6 +38,7 @@
     width: 36px;
     background-image: url(../assets/socials-icons/twitter-logo-36.png);
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .social-instagram {
@@ -44,6 +46,7 @@
     width: 36px;
     background-image: url(../assets/socials-icons/instagram-logo-36.png);
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .social-youtube {
@@ -51,6 +54,7 @@
     width: 36px;
     background-image: url(../assets/socials-icons/youtube-logo-36.png);
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .social-spotify {
@@ -58,6 +62,7 @@
     width: 36px;
     background-image: url(../assets/socials-icons/spotify-logo-36.png);
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .copy {
     text-align: center;
@@ -66,3 +71,21 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* <-------red social footer ------> */
+
+//map
+$redes: (
+    facebook: #0000ff8c,
+    twitter: #1da0f29c,
+    instagram: #df24514d,
+    youtube: #ff000081,
+    spotify: #1ed75f73
+);
+
+@each $redsocial, $color in $redes {
+    .social-#{$redsocial}{
+        background-color: $color;
+    }
+}
+.buttons button {
+    background-color: map-get($redes, instagram);
+}

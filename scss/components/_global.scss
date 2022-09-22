@@ -36,3 +36,25 @@ body {
     background-repeat: no-repeat;
     background-size: 150px 
 }
+
+//extends
+.container {
+    position: relative;
+    margin: 20px 50px;
+    width: 430px;
+    height: 510px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+//mixins 
+@mixin templateflex($valuejustify, $flexwrap) {    
+    display: flex;
+    justify-content: $valuejustify;
+
+    @if ($flexwrap == true) {
+        flex-wrap: wrap;
+    }
+}
+

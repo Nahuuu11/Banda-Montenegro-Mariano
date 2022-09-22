@@ -26,51 +26,25 @@
 
 .box__1 {
     font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
+    @include templateflex(center, true);
     padding-top: 50px;
-    flex-wrap: wrap;
     
     .article__margen1 {
-        position: relative;
-        margin: 20px 50px;
-        width: 430px;
-        height: 510px;
+        @extend .container;
         background-image: url(../assets/images/Foto6.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 5px;
     }
     .article__margen2 {
-        position: relative;
-        margin: 20px 50px;
-        width: 430px;
-        height: 510px;
+        @extend .container;
         background-image: url(../assets/images/Foto3.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 5px;
     }
     .article__margen3 {
-        position: relative;
-        margin: 20px 50px;
-        width: 430px;
-        height: 510px;
+        @extend .container;
         background-image: url(../assets/images/Foto5.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 5px;
     }
     
     .article__margen4 {
-        position: relative;
-        margin: 20px 50px;
-        width: 430px;
-        height: 510px;
+        @extend .container;
         background-image: url(../assets/images/Foto2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 5px;
     }
 }
 
@@ -80,7 +54,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     a {
-        font-size: 25px;
+        font-size: 1.4rem;
         font-weight: 600;
         position: absolute;
         top: 87%;
