@@ -1,17 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
   border-style: none;
-  list-style: none;
-  /* outline-style: none; */ }
+  list-style: none; }
 
 body {
   background-image: url(../assets/images/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
+
+@font-face {
+  font-family: 'Wire-AndPlanks';
+  src: url(/assets/fonts/Wire-AndPlanks.ttf); }
 
 .logo {
   display: flex;
@@ -49,7 +56,8 @@ body {
 .nav-item a {
   color: #a7a3a3 !important;
   font-size: 1.3rem;
-  padding: 15px !important; }
+  padding: 15px !important;
+  text-transform: uppercase; }
   .nav-item a:hover {
     color: white !important; }
 
@@ -175,24 +183,8 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 /* <-------red social footer ------> */
-.social-facebook {
-  background-color: #0000ff8c; }
-
-.social-twitter {
-  background-color: #1da0f29c; }
-
-.social-instagram {
-  background-color: #df24514d; }
-
-.social-youtube {
-  background-color: #ff000081; }
-
-.social-spotify {
-  background-color: #1ed75f73; }
-
-.buttons button {
-  background-color: #df24514d; }
-
+/* <-----google fonts----> */
+/* <-----google fonts----> */
 /* <-----main content index-----> */
 .title__banda {
   color: white;
@@ -201,17 +193,19 @@ body {
   font-family: 'Amaranth', sans-serif; }
 
 .title__banda h1 {
-  font-size: 300%;
-  margin: 0; }
+  font-size: 4rem;
+  margin: 0;
+  font-family: 'Wire-AndPlanks'; }
 
 .title__banda h2 {
-  font-size: 45px;
-  margin-right: 16px; }
+  font-size: 4rem;
+  margin-right: 16px;
+  font-family: 'Wire-AndPlanks'; }
 
 .title-mid {
-  font-size: 40px;
+  font-size: 15px;
   color: white;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Roboto", sans-serif !important;
   text-align: center;
   padding-top: 80px; }
 
@@ -257,14 +251,16 @@ body {
 .title-mid {
   font-size: 40px;
   color: white;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
   padding-top: 80px; }
 
 .title-gira {
-  font-size: 35px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
   color: white;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
   text-align: center;
   padding-top: 40px; }
 
@@ -282,8 +278,19 @@ body {
   border-top: white 1px solid;
   overflow-y: scroll; }
 
+.bars::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-track {
+  border: 1px solid #2b2b2b;
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(177, 177, 177, 0.103);
+  border-radius: 10px; }
+
 .bars div {
-  border-bottom: rgba(252, 248, 248, 0.2) 1px solid;
+  border-bottom: rgba(252, 248, 248, 0.514) 1px solid;
   padding: 20px;
   color: white;
   transition: background-color 0.4s ease-in-out 0s; }
@@ -307,7 +314,19 @@ span {
   background-color: rgba(223, 36, 81, 0.3);
   color: white;
   font-size: 15px;
-  font-weight: 800 !important; }
+  font-weight: 500 !important; }
+
+.bars button {
+  margin-left: 260px;
+  padding: 10px 50px;
+  color: #ebe7e7;
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  border: white 1px solid;
+  font-family: 'Roboto Slab', serif; }
+  .bars button:hover {
+    background-color: white;
+    color: black; }
 
 .lugar {
   margin-left: 260px; }
@@ -350,28 +369,23 @@ span {
   width: 100%;
   justify-content: center;
   flex-wrap: wrap; }
-
-.text_album {
-  width: 600px;
-  height: 500px;
-  color: white; }
-
-.text_album h1 {
-  font-size: 37px;
-  padding-bottom: 20px; }
-
-.text_album h2 {
-  font-size: 30px; }
-
-.text_album p {
-  font-size: 20px;
-  margin-bottom: 15px; }
+  .text .text_album {
+    width: 600px;
+    height: 500px;
+    color: white; }
+  .text h1 {
+    font-size: 37px;
+    padding-bottom: 20px; }
+  .text h2 {
+    font-size: 30px; }
+  .text p {
+    font-size: 20px;
+    margin-bottom: 15px; }
 
 .image__album {
   padding-left: 5%; }
-
-.image__album img {
-  border-radius: 5px; }
+  .image__album .image__album img {
+    border-radius: 5px; }
 
 .iframe_videos {
   display: flex;
@@ -388,10 +402,6 @@ span {
 .title__videos {
   text-align: center;
   color: white; }
-
-.carouselp {
-  height: 500x;
-  width: 600px; }
 
 /* <-----Musica/Videos-----> */
 /* <-----Banda-----> */
@@ -520,27 +530,23 @@ form {
   width: 585px;
   margin: auto;
   padding: 10px 20px; }
-
-.checkbox_news {
-  display: inline-flex; }
-
-.checkbox_news small {
-  padding-left: 10px;
-  font-size: 15px;
-  color: white; }
-
-.form__1 h2 {
-  color: white;
-  text-align: center;
-  margin: 0;
-  font-size: 25px;
-  padding-bottom: 25px; }
-
-.form__1 p {
-  padding-bottom: 5px;
-  font-size: 20px;
-  color: white;
-  font-weight: 500%; }
+  form h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 25px; }
+  form p {
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500%; }
+  form .checkbox_news {
+    display: inline-flex; }
+  form .checkbox_news small {
+    padding-left: 10px;
+    font-size: 15px;
+    color: white; }
 
 .form__1 input, textarea {
   width: 100%;
@@ -581,8 +587,6 @@ textarea {
     margin: 10px; }
   .image__album {
     padding: 0px; }
-  .carouselp {
-    width: 500px; }
   /* musica/videos */
   /* Gira */
   .bars {
@@ -634,9 +638,9 @@ textarea {
   .logo {
     height: 150px; }
   .title__banda h1 {
-    font-size: 28px; }
+    font-size: 2.8rem; }
   .title__banda h2 {
-    font-size: 28px;
+    font-size: 2.8rem;
     padding-left: 20px; }
   .article__margen1 {
     margin-bottom: 20px;

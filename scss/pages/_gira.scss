@@ -9,15 +9,17 @@
 .title-mid {
     font-size: 40px;
     color: white;
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-align: center;
     padding-top: 80px;
 }
 
 .title-gira {
-    font-size: 35px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
     color: white;
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
     text-align: center;
     padding-top: 40px;
 }
@@ -29,7 +31,6 @@
     padding-top: 30px;
 }
 
-
 /* <-------bars-------> */
 .bars {
     width: 900px;
@@ -38,17 +39,28 @@
     border-top: white 1px solid;
     overflow-y: scroll;
 }
+.bars::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border: 1px solid #2b2b2b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background:rgba(177, 177, 177, 0.103);
+    border-radius: 10px;
+}
+
 .bars div {
-    border-bottom: rgba(252, 248, 248, 0.2) 1px solid;
+    border-bottom: rgba(252, 248, 248, 0.514) 1px solid;
     padding: 20px;
     color: white;
     transition: background-color 0.4s ease-in-out 0s;
 }
 .bars div:hover {
-    background-color: rgba(223, 36, 81, 0.3) ;
+    background-color: ($color-principal) ;
 }
 /* <-------bars-------> */
-
 
 span {
     font-size: 24px;
@@ -63,10 +75,23 @@ span {
 .buttons button{
     cursor: pointer;
     padding: 10px;
-    background-color: rgba(223, 36, 81, 0.3) ;
+    background-color: ($color-principal);
     color: white;
     font-size: 15px;
-    font-weight: 800!important;
+    font-weight: 500!important;
+}
+.bars button {
+    margin-left: 260px;
+    padding: 10px 50px;
+    color: rgb(235, 231, 231);
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    border: white 1px solid;
+    font-family: 'Roboto Slab', serif;
+    &:hover {
+        background-color: white;
+        color: black;
+    }
 }
 
 .lugar {

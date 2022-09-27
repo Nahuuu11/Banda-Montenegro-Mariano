@@ -5,7 +5,6 @@
     text-decoration: none;
     border-style: none;
     list-style: none;
-    /* outline-style: none; */
 }
 
 body {
@@ -14,6 +13,12 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+//font
+@font-face {
+    font-family: 'Wire-AndPlanks';
+    src: url(/assets/fonts/Wire-AndPlanks.ttf);
+}
+//font
 
 .logo {
     display: flex;
@@ -57,4 +62,5 @@ body {
         flex-wrap: wrap;
     }
 }
+
 

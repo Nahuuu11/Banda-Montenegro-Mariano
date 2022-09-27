@@ -1,7 +1,7 @@
 {
   "name": "banda-montenegro-mariano",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto de pagina web, banda de música los fundamentalistas",
   "main": "index.js",
   "scripts": {
     "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"

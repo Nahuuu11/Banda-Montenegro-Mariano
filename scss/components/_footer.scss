@@ -71,21 +71,3 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* <-------red social footer ------> */
-
-//map
-$redes: (
-    facebook: #0000ff8c,
-    twitter: #1da0f29c,
-    instagram: #df24514d,
-    youtube: #ff000081,
-    spotify: #1ed75f73
-);
-
-@each $redsocial, $color in $redes {
-    .social-#{$redsocial}{
-        background-color: $color;
-    }
-}
-.buttons button {
-    background-color: map-get($redes, instagram);
-}
