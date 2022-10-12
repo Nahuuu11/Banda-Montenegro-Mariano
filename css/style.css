@@ -41,8 +41,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 125px;
-  display: flex;
-  justify-content: center;
   padding: 90px; }
 
 .container, .box__1 .article__margen1, .box__1 .article__margen2, .box__1 .article__margen3, .box__1 .article__margen4 {
