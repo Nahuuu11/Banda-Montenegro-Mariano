@@ -13,6 +13,13 @@
          margin-left: 10px;
          margin-right: 10px;
      }
+     .tittle__videos {
+          margin-top: 10px;
+          font-size: 2rem;
+     }
+     .iframe_videos {
+          padding: 15px;
+     }
      .video1 {
          padding: 0;
          margin: 10px;
@@ -24,6 +31,9 @@
      .image__album {
          padding: 0px;
      }
+     .separador__largo {
+          display: none;
+     }
     /* musica/videos */
 
     /* Gira */
@@ -31,8 +41,11 @@
          width: 700px;
          height: 400px;
     }
+    .fecha {
+     display: flex;
+    }
     .lugar {
-         margin-left: 230px;
+         margin-left: 0px;
     }
     .buttons{
          padding-top: 40px;
@@ -62,11 +75,14 @@
     .color a {
      left: 15px;
     }
+    .bi {
+     display: none;
+    }
      /* Gira */
 }
 
 @media screen and (max-width: 700px) {
-    body {
+     body {
          background-image: url(../assets/images/Backgroundmobile.jpg);
          background-repeat: no-repeat;
          background-size: cover;
@@ -102,6 +118,9 @@
          font-size: 2.8rem;
          padding-left: 20px;
     }
+    .title-mid {
+     width: 230px;
+    }
     
     .article__margen1 {
          margin-bottom: 20px;
@@ -126,7 +145,7 @@
     }
     
     .color {
-         width: 300px;
+         width: 325px;
          height: 510px;
     }
     .color a {
@@ -135,12 +154,15 @@
     .separadorcon__logo {
          display: none;
      }
-     .linebar-gira {
-         padding: 0;
-     }
      .title-gira {
          padding-top: 0.5rem;
          margin: 0;
+     }
+     .sub {
+          width: 320px;
+     }
+     .sub span {
+          margin: 0px;
      }
     /* Main */
 
@@ -149,9 +171,14 @@
          width: 300px;
          height: 400px;
     }
-    .lugar {
-         margin: 20px;
+    .fecha {
+     font-size: 30px;
     }
+    .lugar {
+         margin: 0px;
+         font-size: 20px;
+    }
+
     .buttons{
          padding-top: 40px;
          width: auto;
@@ -174,12 +201,22 @@
          row-gap: 10px;
          padding: 15px;
     }
+    .bars button {
+     margin-left: 45px;
+     margin-top: 10px;
+     padding: 20px, 50px;
+    }
+    .bi {
+     display: none;
+    }
      /* Gira */
 
      /* Musica/Videos */
+     .title-gira {
+          font-size: 2rem;
+     }
      .text_album {
-         width: auto;
-         height: auto;
+         width: 600px;
          text-align: center;
          padding-top: 40px;
      }
@@ -198,11 +235,10 @@
          padding: 0;
          margin: 10px;
      }
-     .imagen__album-1 {
+     .imagen__album {
          width: 320px;
          height: 300px;
-         padding: 10px;
-
+         padding: 5px;
      }
      .iframe_spotify {
          padding: 5px;
@@ -210,16 +246,16 @@
      .image__album {
          padding: 0px;
      }
-
-     .carouselp {
-         width: 300px;
-     }
     /* Musica/Videos */
 
     /* contacto */
-    form {
+    .form_contacto {
          width: 320px;
          padding-top: 50px;
     }
     /* contacto */
+    // banda
+    .fernando {
+     grid-column: 1;
+    }
 }

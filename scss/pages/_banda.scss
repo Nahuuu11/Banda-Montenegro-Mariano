@@ -21,7 +21,7 @@
 /*Grid*/
 .ul__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(var(--auto-grid-min-size, 14rem), 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(var(--auto-grid-min-size, 14rem), 1fr));
     grid-gap: 10px;
     padding: 0;
     place-content: center;
@@ -31,6 +31,9 @@
 }
 .miembros {
     --flow-space: 2em;
+}
+.fernando {
+    grid-column: 2;
 }
 .profile {
     display: flex;
@@ -78,8 +81,8 @@
 .profile::after {
     background: linear-gradient(
          45deg,
-         ($color-principal) 0,
-         ($color-principal) 100%
+         (rgba(223, 36, 80, 0.116)) 0,
+         (rgba(223, 36, 80, 0.137)) 100%
     );
     opacity: 0;
     transition: 300ms opacity linear;

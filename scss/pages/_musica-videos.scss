@@ -7,7 +7,6 @@
 
     .text_album {
         width: 600px;
-        height: 500px;
         color: white;
     }
     h1 {
@@ -25,11 +24,9 @@
 
 .image__album {
     padding-left: 5%;
-    
-    .image__album img{
-        border-radius: 5px;
-    }
-    
+}
+.imagen__album {
+    border-radius: 5px;
 }
 
 .iframe_videos {

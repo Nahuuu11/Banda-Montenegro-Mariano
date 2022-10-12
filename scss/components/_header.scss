@@ -1,6 +1,7 @@
 /* <-----navbar----> */
 .header {
-    padding: 20px;
+    background-color: black;
+    padding: 4px;
     font-family: 'Lato', sans-serif;
 }
 .nav-item a {
@@ -10,7 +11,7 @@
     text-transform: uppercase;
     
     &:hover {
-        color: rgb(255, 255, 255)!important;
+        color: ($color-hover1)!important;
     }
 }
 //hamburger

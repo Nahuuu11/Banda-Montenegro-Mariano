@@ -24,6 +24,9 @@
     font-family: 'Roboto', sans-serif!important;
     text-align: center;
     padding-top: 80px;
+    border-bottom: #df2450db solid 2px;
+    width: 370px;
+    margin: auto;
 }
 
 .box__1 {
@@ -69,5 +72,25 @@
             color: $color-hover1;
         }
     }
+}
+
+.sub {
+    text-align: center;
+    span {
+        color: white;
+        font-size: 1.2rem;
+    }
+    input {
+        width: 100%;
+        margin: 5px;
+        padding: 6px;
+        background-color: ($color-principal);
+        color: white;
+        transform: translate(99);
+    }
+    input::placeholder {
+        color:white;
+    }
+
 }
 /* <------main content index-----> */

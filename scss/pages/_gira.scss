@@ -62,7 +62,7 @@
 }
 /* <-------bars-------> */
 
-span {
+.bars span {
     font-size: 24px;
 }
 
@@ -79,9 +79,10 @@ span {
     color: white;
     font-size: 15px;
     font-weight: 500!important;
+    margin-left: 4px;
 }
 .bars button {
-    margin-left: 260px;
+    margin-left: 130px;
     padding: 10px 50px;
     color: rgb(235, 231, 231);
     background-color: rgba(255, 255, 255, 0);
@@ -95,7 +96,12 @@ span {
 }
 
 .lugar {
-    margin-left: 260px;
+    margin-left: 200px;
+    text-align: center;
+    font-family: 'Noto Serif Gujarati', serif;
+}
+.fecha {
+    font-family: 'Noto Serif Gujarati', serif;
 }
 /* <-------buttons-------> */
 
@@ -129,4 +135,25 @@ span {
     filter: opacity(0.9);
     transform: scale(1.04);
   }
+  .buttons a {
+    position: relative;
+    left: 500px;
+    top: 10px;
+    font-size: 26px;
+    color: white;
+    margin: 2px;
+  }
+  .bi {
+    transition: color 0.3s ease-in-out 0s;
+  }
+  
+.bi-spotify:hover {
+    color: #1ed760;
+}
+.bi-instagram:hover {
+    color: #8134af;
+}
+.bi-twitter:hover {
+    color:#00ACEE;
+}
 /* <-------Content Gira ---------> */
