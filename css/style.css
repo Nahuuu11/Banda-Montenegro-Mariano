@@ -37,7 +37,7 @@ body {
   background-repeat: no-repeat; }
 
 .separadormain {
-  background-image: url(../assets/images/logo2.png);
+  background-image: url(/assets/images/logo2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 125px;
