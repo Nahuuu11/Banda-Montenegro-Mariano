@@ -1,5 +1,5 @@
 # Los Fundamentalistas 
-Sitio de práctica para el curso de Desarrollo Web en Corderhouse.
+Proyecto de practica para curso de Coder
 
 Tecnologías utilizadas:
 
